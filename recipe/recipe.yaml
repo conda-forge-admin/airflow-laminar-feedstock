@@ -1,6 +1,6 @@
 context:
   name: airflow-laminar
-  version: "1.19.1"
+  version: "1.20.0"
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/a/airflow-laminar/airflow_laminar-${{ version }}.tar.gz
-  sha256: 6bfb00d1ef51087700d9692b707e5a94e539dae412568f0f693b10afcdab657a
+  sha256: df7e3acb049d0c5c6f67b94c1323f6b990895678c56207f64fbd53986300ff9b
 
 build:
   number: 0
